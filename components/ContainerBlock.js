@@ -22,11 +22,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://sujeetgund.vercel.app${router.asPath}`}
+          content={`https://kashyab-murali-portfolio.vercel.app${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://sujeetgund.vercel.app${router.asPath}`}
+          href={`https://kashyab-murali-portfolio.vercel.app${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Kashyab Murali" />
