@@ -12,7 +12,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Kashyab Murali"
-      description="A life that's quite interesting!"
+      description=""
     >
       <Hero />
       <FavouriteProjects />

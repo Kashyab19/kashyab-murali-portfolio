@@ -32,14 +32,14 @@ const userData = {
   ],
   projects: [
     {
-      title: "Basic Animation(Web Dev)",
-      link: "https://upsidedown-demogorgon-using-react.vercel.app/",
-      imgUrl: "projects/upside-demorgogon.png",
-    },
-    {
       title: "Social Media(UI/UX)",
       link: "https://youtu.be/gh9w6AUS0tY",
       imgUrl: "projects/figma-1.png",
+    },
+    {
+      title: "Twitazon(UI/UX)",
+      link: "https://youtube.com/shorts/UMvtmC3hOTg?feature=share",
+      imgUrl: "projects/Twitazon.png",
     },
     {
       title: "Wave Hi(Blockchain)",
@@ -50,6 +50,11 @@ const userData = {
       title: "Dutch Auction(Blockchain)",
       link: "https://github.com/Kashyab19/cryptocurrency-coursework",
       imgUrl: "projects/dutch-auction.png",
+    },
+    {
+      title: "Basic Animation(Web Dev)",
+      link: "https://upsidedown-demogorgon-using-react.vercel.app/",
+      imgUrl: "projects/upside-demorgogon.png",
     }
 
   ],
@@ -85,7 +90,7 @@ const userData = {
       company: "Verizon, India 🇮🇳",
       year: "2022",
       companyLink: "https://www.verizon.com/",
-      desc: "Moving on, to live my own life!",
+      desc: "Led the development and implementation of an internal framework in Spring Reactive resulting in a 20% reduction in overhead code"
     },
     {
       title: "Engineer - I Software Developement",

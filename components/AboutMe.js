@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-25 bg-white dark:bg-gray-800">
-        <h1 className="text-4xl md:text-5xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-4xl md:text-5xl font-bold py-10 text-center md:text-left">
           About Me 🙋‍♂️
         </h1>
       </div>

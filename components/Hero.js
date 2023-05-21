@@ -9,29 +9,20 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="w-full md:w-1/2 mx-auto text-center md:text-left md:pt-10">
         <RoughNotationGroup show={true}>
-        <RainbowHighlight color={colors[3]}>
             <h2 className="text-2xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Hi everyone👋,
             </h2>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[0]}>
-            <h2 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 my-2">
-            I am happy to have you in my tech universe and happy to walk you through it! 🌎🚶 Let's start!
+            <h2 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 px-8 md:px-0 my-2">
+            I am excited to have you in my tech universe and happy to walk you through it! 🌎🚶 Let's start!
             </h2>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[2]}>
-            <h3 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              I am super interested about writing code, blogs and talking to people about ideas!
-            </h3>
-          </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4">
-          <img src={userData.avatarUrl} alt="avatar" className="h-64 md:h-96 rounded-3xl shadow-black-600" />
+          <img src={userData.avatarUrl} alt="avatar" className="h-48 md:h-64 rounded-3xl shadow-black-600" />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg
