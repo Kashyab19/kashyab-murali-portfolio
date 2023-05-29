@@ -3,6 +3,7 @@ import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import ProgressBar from '@badrap/bar-of-progress';
 import Router from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const progress = new ProgressBar({
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/Kashyab.jpg" type="image/x-icon" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </ThemeProvider>
   );
 }
