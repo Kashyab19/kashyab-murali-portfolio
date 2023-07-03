@@ -72,6 +72,13 @@ const userData = {
   },
   experience: [
     {
+      title: "Blockchain Developer",
+      company: "G2W Consulting(Fuor) 🇺🇸",
+      year: "2023-Present",
+      companyLink: "https://g2wconsulting.com/",
+      desc: "Developing a healthcare-based blockchain platform to find the best prices for patients",
+    },
+    {
       title: "Product Manager",
       company: "Aspiring Product Managers Club 🇺🇸",
       year: "2023-Present",
